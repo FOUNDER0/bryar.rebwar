@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(4k.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+
+    width: 100%;
+    height: 15%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    
+    width: 200px;
+    cursor:no-drop;
+}
+
+
+.nav1{
+    flex: 1;
+    text-align: right;
+}
+
+.nav1 ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+
+.nav1 ul li a{
+    text-shadow: 0px 0px 20px #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+
+.nav1 ul li:hover{
+    padding: 8px 20px;
+    transition: 0.5s;
+    background-color: #1877f2;
+
+}
+
+.nav1 ul li a:focus{
+    cursor: wait;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.babat{
+
+    width: 100%;
+    height: 80vh;
+    justify-content: space-evenly;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+.babat img{
+    cursor: no-drop;
+    box-shadow: 0px 0px 100px #fff;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.hh{
+    text-shadow: 0px 0px 20px #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.para1{
+    margin: 20px;
+    width: 400px;
+    text-align: justify;
+
+}
+
+.para1 a{
+    text-decoration: none;
+    color: #fff;
+    border:1.5px solid #ffffff;
+    padding: 5px 30px;
+    border-radius: 50px;
+    text-shadow: 0px 0px 20px #fff;
+}
+
+.end{
+    color: #fff;
+    background-color: black;
+    width: 100%;
+    height: 30vh;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.end ul li {
+    
+    width: 150%;
+    padding: 10%;
+}
+.end ul li a{
+
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: small;
+}
+
+.end p{
+    text-transform: capitalize;
+    font-size: small;
+    color: #8e8e8e;
+    width: 60%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .nav1 ul li{
+         list-style: none;
+         display: inline-block;
+         margin-left: 5px;
+         margin-top: 0px;
+         padding: 10px;
+    }
+
+    .nav1 ul{
+        margin-top: 80px;
+    }
+
+    .babat img{
+        margin-top: 150px;
+    }
+  }
